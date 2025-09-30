@@ -43,7 +43,7 @@ const Button: React.FC<ButtonProps> = ({
       onClick={onClick}
       className={`${baseClasses} ${variantClasses[variant]} ${sizeClasses[size]} ${
         disabled || loading ? 'opacity-50 cursor-not-allowed' : ''
-      } ${className}`}
+      } ${className} cursor-pointer`}
     >
       {loading ? (
         <>
