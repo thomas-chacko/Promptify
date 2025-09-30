@@ -1,5 +1,4 @@
 import bcrypt from "bcrypt";
-import { config } from "dotenv";
 import jwt from "jsonwebtoken";
 
 //  Hashes a password using bcrypt with appropriate salt rounds
